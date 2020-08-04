@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head >
+        <meta name="viewpoint" content="width=devide-width, initial-scale=1.0">
+        <title>converter</title>
+        <script src="{{url_for('static',filename='index.js')}}"></script>
+        <style>
+            body{
+                padding: 10px;
+            }
+            .centro{
+                margin: auto;
+                width: 60%;
+                border: 2px solid rgb(43, 42, 42);
+                padding: 10px;
+                background-color: rgb(50, 202, 50);
+            }
+            h1{
+                font-size: 14px;
+                padding: 2px;
+            }
+            form{
+                text-align: center;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="centro">
+            <form id="form">
+                <input id="moedas" type="text" autofocus placeholder="Ex:USD">
+                <input type="submit" value="Converta">
+            </form>
+            <hr width = “3” size = “100”>
+            <h1 id="nome"></h1>
+            <h1 id="result"></h1>
+            <h1 id="porcentagem"></h1>
+            
+        </div>
+        
+        </body>
+
+ 
+    
+
+
+
+</html>
